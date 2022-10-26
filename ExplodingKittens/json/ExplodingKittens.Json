@@ -1,0 +1,254 @@
+
+[
+    {
+      "$type": "explodingKittens.Attack, ExplodingKittens",
+      "cardType": "Attack",
+      "description": "Skip your turn. Your opponent takes an extra card.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Attack, ExplodingKittens",
+      "cardType": "Attack",
+      "description": "Skip your turn. Your opponent takes an extra card.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Attack, ExplodingKittens",
+      "cardType": "Attack",
+      "description": "Skip your turn. Your opponent takes an extra card.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Attack, ExplodingKittens",
+      "cardType": "Attack",
+      "description": "Skip your turn. Your opponent takes an extra card.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Favor, ExplodingKittens",
+      "cardType": "Favor",
+      "description": "Force another player to give you a card from their hand.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Favor, ExplodingKittens",
+      "cardType": "Favor",
+      "description": "Force another player to give you a card from their hand.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Favor, ExplodingKittens",
+      "cardType": "Favor",
+      "description": "Force another player to give you a card from their hand.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Favor, ExplodingKittens",
+      "cardType": "Favor",
+      "description": "Force another player to give you a card from their hand.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Nope, ExplodingKittens",
+      "cardType": "Nope",
+      "description": "Cancel the last action played.",
+      "playable": false
+    },
+    {
+      "$type": "explodingKittens.Nope, ExplodingKittens",
+      "cardType": "Nope",
+      "description": "Cancel the last action played.",
+      "playable": false
+    },
+    {
+      "$type": "explodingKittens.Nope, ExplodingKittens",
+      "cardType": "Nope",
+      "description": "Cancel the last action played.",
+      "playable": false
+    },
+    {
+      "$type": "explodingKittens.Nope, ExplodingKittens",
+      "cardType": "Nope",
+      "description": "Cancel the last action played.",
+      "playable": false
+    },
+    {
+      "$type": "explodingKittens.Shuffle, ExplodingKittens",
+      "cardType": "Shuffle",
+      "description": "Shuffle the deck.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Shuffle, ExplodingKittens",
+      "cardType": "Shuffle",
+      "description": "Shuffle the deck.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Shuffle, ExplodingKittens",
+      "cardType": "Shuffle",
+      "description": "Shuffle the deck.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Shuffle, ExplodingKittens",
+      "cardType": "Shuffle",
+      "description": "Shuffle the deck.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Skip, ExplodingKittens",
+      "cardType": "Skip",
+      "description": "Skip your turn.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Skip, ExplodingKittens",
+      "cardType": "Skip",
+      "description": "Skip your turn.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Skip, ExplodingKittens",
+      "cardType": "Skip",
+      "description": "Skip your turn.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.Skip, ExplodingKittens",
+      "cardType": "Skip",
+      "description": "Skip your turn.",
+      "playable": true
+    },
+    {
+      "$type": "explodingKittens.SeeTheFuture, ExplodingKittens",
+      "cardType": "SeeTheFuture",
+      "description": "Look at the top 3 cards of the deck."
+      
+    },
+    {
+      "$type": "explodingKittens.SeeTheFuture, ExplodingKittens",
+      "cardType": "SeeTheFuture",
+      "description": "Look at the top 3 cards of the deck."
+    },
+    {
+      "$type": "explodingKittens.SeeTheFuture, ExplodingKittens",
+      "cardType": "SeeTheFuture",
+      "description": "Look at the top 3 cards of the deck."
+    },
+    {
+      "$type": "explodingKittens.SeeTheFuture, ExplodingKittens",
+      "cardType": "SeeTheFuture",
+      "description": "Look at the top 3 cards of the deck."
+    },
+    {
+      "$type": "explodingKittens.HairyPotatoCat, ExplodingKittens",
+      "cardType": "HairyPotatoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.HairyPotatoCat, ExplodingKittens",
+      "cardType": "HairyPotatoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.HairyPotatoCat, ExplodingKittens",
+      "cardType": "HairyPotatoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.HairyPotatoCat, ExplodingKittens",
+      "cardType": "HairyPotatoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.Cattermelon, ExplodingKittens",
+      "cardType": "Cattermelon",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.Cattermelon, ExplodingKittens",
+      "cardType": "Cattermelon",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.Cattermelon, ExplodingKittens",
+      "cardType": "Cattermelon",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.Cattermelon, ExplodingKittens",
+      "cardType": "Cattermelon",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
+      "cardType": "RainbowRalpingCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
+      "cardType": "RainbowRalpingCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
+      "cardType": "RainbowRalpingCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
+      "cardType": "RainbowRalpingCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.TacoCat, ExplodingKittens",
+      "cardType": "TacoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.TacoCat, ExplodingKittens",
+      "cardType": "TacoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.TacoCat, ExplodingKittens",
+      "cardType": "TacoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.TacoCat, ExplodingKittens",
+      "cardType": "TacoCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.OverweightBikiniCat, ExplodingKittens",
+      "cardType": "OverweightBikiniCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.OverweightBikiniCat, ExplodingKittens",
+      "cardType": "OverweightBikiniCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.OverweightBikiniCat, ExplodingKittens",
+      "cardType": "OverweightBikiniCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.OverweightBikiniCat, ExplodingKittens",
+      "cardType": "OverweightBikiniCat",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.ExplodingKitten, ExplodingKittens",
+      "cardType": "ExplodingKitten",
+      "description": ""
+    },
+    {
+      "$type": "explodingKittens.Defuse, ExplodingKittens",
+      "cardType": "Defuse",
+      "description": "You defused the kitten. Where in the deck do you wish to place the ExplodingKitten? 0.."
+    }
+]

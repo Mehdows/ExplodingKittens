@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3tdQPZ0QLYWd064V7UG98SKBTpk3faykDXLm9n0KOFJXGNymIcPj8bPfOU3/gnwVRwO1VAcnWOg5b7iPUglBBg==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Marcus\\Documents\\Code\\D7032E\\ExplodingKittens\\ExplodingKittens.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcus\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
