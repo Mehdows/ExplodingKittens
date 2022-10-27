@@ -20,6 +20,7 @@ namespace explodingKittens{
             addPlayers(playerAmount);
             dealCards(CARDSPERHAND);
             this.drawpile.addKittens(playerAmount);
+            this.drawpile.shuffle();
             randomizeCurrentPlayer();
         }
 

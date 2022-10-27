@@ -1,12 +1,16 @@
 namespace explodingKittens{
     public class Game{
         GameState state;
+        string dlc;
+        int playerAmount;
 
         public Game(string dlc, int playerAmount){
-            this.state = new GameState(dlc, playerAmount);
+            this.dlc = dlc;
+            this.playerAmount = playerAmount;
         }
 
         public void start(){
+            this.state = new GameState(dlc, playerAmount);
             while(true){
                 
                 if (state.isWinner()){
@@ -51,12 +55,18 @@ namespace explodingKittens{
                 }      
             }
         }
+        public GameState getState(){
+            return this.state;
+        }
+        //Every item in list is converted to lowercase
         private string[] toLowerList(string[] list){
             for(int i = 0; i < list.Count(); i++){
                 list[i] = list[i].ToLower();
             }
             return list;
         }
+
+        //plays interruptable card
         private void playerInterrupt(){
             foreach (Player p in state.getPlayers()){
                 foreach (Card c in p.getHand().getCards()){
@@ -67,7 +77,7 @@ namespace explodingKittens{
                 }
             }
         }
-
+        //Checks if a player has a NOPE card or similar card(abstract)
         private bool interruptCheck(){
             foreach(Player p in state.getPlayers()){
                 foreach(Card c in p.getHand().getCards()){

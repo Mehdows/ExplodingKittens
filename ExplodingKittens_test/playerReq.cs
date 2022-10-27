@@ -1,10 +1,10 @@
 namespace explodingKittens;
 
-public class UnitTest1
+public class playerReq
 {
     const string DLC = "ExplodingKittens";
     [Fact]
-    public void Test1()
+    public void LessThenTwo()
     {
         int players = 1;
         try {
@@ -13,8 +13,11 @@ public class UnitTest1
         } catch (Exception e) {
             Assert.Equal("Invalid player amount", e.Message);
         }
-
-        players = 6;
+    }
+    [Fact]
+    public void moreThenFive()
+    {
+        int players = 6;
         try {
             var game = new Game(DLC, players);
             game.start();
@@ -22,4 +25,5 @@ public class UnitTest1
             Assert.Equal("Invalid player amount", e.Message);
         }
     }
+
 }

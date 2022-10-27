@@ -73,6 +73,12 @@
       "playable": false
     },
     {
+      "$type": "explodingKittens.Nope, ExplodingKittens",
+      "cardType": "Nope",
+      "description": "Cancel the last action played.",
+      "playable": false
+    },
+    {
       "$type": "explodingKittens.Shuffle, ExplodingKittens",
       "cardType": "Shuffle",
       "description": "Shuffle the deck.",
@@ -142,6 +148,11 @@
       "description": "Look at the top 3 cards of the deck."
     },
     {
+      "$type": "explodingKittens.SeeTheFuture, ExplodingKittens",
+      "cardType": "SeeTheFuture",
+      "description": "Look at the top 3 cards of the deck."
+    },
+    {
       "$type": "explodingKittens.HairyPotatoCat, ExplodingKittens",
       "cardType": "HairyPotatoCat",
       "description": ""
@@ -183,22 +194,22 @@
     },
     {
       "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
-      "cardType": "RainbowRalpingCat",
+      "cardType": "RainbowRalphingCat",
       "description": ""
     },
     {
       "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
-      "cardType": "RainbowRalpingCat",
+      "cardType": "RainbowRalphingCat",
       "description": ""
     },
     {
       "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
-      "cardType": "RainbowRalpingCat",
+      "cardType": "RainbowRalphingCat",
       "description": ""
     },
     {
       "$type": "explodingKittens.RainbowRalphingCat, ExplodingKittens",
-      "cardType": "RainbowRalpingCat",
+      "cardType": "RainbowRalphingCat",
       "description": ""
     },
     {

@@ -190,7 +190,7 @@
     
     public class RainbowRalphingCat : Card{
 
-        public RainbowRalphingCat() : base("RainbowRalpingCat", "", false, false, false){
+        public RainbowRalphingCat() : base("RainbowRalphingCat", "", false, false, false){
             
         }
     }
