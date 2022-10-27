@@ -28,16 +28,6 @@ namespace explodingKittens
             }
             return lst;
         }
-
-        public static String listToJson(ArrayList lst){
-            try{
-                JsonSerializerSettings settings = new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.All, Formatting = Formatting.Indented };
-                return JsonConvert.SerializeObject(lst, settings);
-            }
-            catch(Exception e){
-                throw new Exception("LIST_TO_JSON_EXCEPTION", e);
-            }
-        }
     }
 
 }

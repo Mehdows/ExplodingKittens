@@ -7,10 +7,10 @@ namespace explodingKittens
 {
     public static class Server
     {
-        static ArrayList clients = new ArrayList();
-        static private int count = 0;
-        static TcpListener serverSocket;
-        static TcpClient clientSocket;
+        private static ArrayList clients = new ArrayList();
+        private static private int count = 0;
+        private static TcpListener serverSocket;
+        private static TcpClient clientSocket;
         
 
         //player is the amount of clients that are allowed to connect

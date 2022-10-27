@@ -84,9 +84,6 @@ namespace explodingKittens{
             }
             return alivePlayers == 1;
         }
-        public void saveCurrentPlayer(){
-            this.players[currentPlayer.getId()] = currentPlayer;
-        }
 
         public void drawCardFromPlayer(int targetId){
             while(true){

@@ -16,9 +16,6 @@ namespace explodingKittens{
         public Hand getHand(){
             return this.hand;
         }
-        public bool contains(string type){
-            return this.hand.getCard(type) != null;
-        }
         public void setHand(Hand hand){
             this.hand = hand;
         }

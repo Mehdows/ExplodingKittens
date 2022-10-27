@@ -7,8 +7,8 @@ namespace explodingKittens
 {
     public class client
     {
-        System.Net.Sockets.TcpClient clientSocket;
-        NetworkStream serverStream; 
+        private TcpClient clientSocket;
+        private NetworkStream serverStream; 
         
         public client(string ip)
         {
@@ -39,7 +39,7 @@ namespace explodingKittens
                 
             }
         }
-        public void sendMessage(string msg)
+        private void sendMessage(string msg)
         {
             serverStream = clientSocket.GetStream();
             byte[] outStream = Encoding.ASCII.GetBytes(msg);
